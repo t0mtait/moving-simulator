@@ -29,6 +29,7 @@ int nextToTrucks[2];
 int itemsPacked = 0;
 int ndwellers, nmovers, ndrivers;
 int totalMoved = 0;
+int totalPacked = 0;
 
 
 typedef struct _params
@@ -67,12 +68,16 @@ void* mover(void* arg) {
     while (read(houseFloor[READ_END], &weight, sizeof(weight)) > 0) {
         int time = RANDOM_WITHIN_RANGE(MIN_TIME_FOR_MOVER, MAX_TIME_FOR_MOVER, seed);
         sleep(time);
+        totalMoved++;
         printf("Mover %d brought down a box that weighs %d in %d units of time \n", t->id, weight, time);
         write(nextToTrucks[WRITE_END], &weight, sizeof(weight));
         t->nHandled++;
+        if (totalMoved == t->nDwellers * NUMBER_OF_BOXES_PER_DWELLER) {
+            printf("Mover %d is done moving boxes downstairs\n", t->id);
+            free(t);
+            return NULL;
+        }
     }
-    printf("Mover %d is done moving boxes downstairs\n", t->id);
-    free(t);
     return NULL;
 }
 
@@ -101,8 +106,8 @@ void* driver(void* arg) {
                 t->weightPacked = 0; 
                 t->nInTruck = 0;
             }
-            totalMoved++;
-            if (totalMoved >= totalBoxes) {
+            totalPacked++;
+            if (totalPacked >= totalBoxes) {
                 if (t->weightPacked > 0) 
                 {
                     int tripTime = RANDOM_WITHIN_RANGE(MIN_TRIP_TIME, MAX_TRIP_TIME, seed);
@@ -167,9 +172,9 @@ int main() {
         pthread_join(threads[i], NULL);
     }
     printf("Moving is finished!\n");
-    close(houseFloor[READ_END]);
-    close(houseFloor[WRITE_END]);
     close(nextToTrucks[READ_END]);
     close(nextToTrucks[WRITE_END]);
+    close(houseFloor[READ_END]);
+    close(houseFloor[WRITE_END]);
     return 0;
 }
