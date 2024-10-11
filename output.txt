@@ -1,0 +1,95 @@
+Please input number of people living in the house, number of movers and number of truck drivers
+5 2 2
+Hello from house dweller 0
+Hello from house dweller 1
+Hello from house dweller 2
+Hello from house dweller 3
+Hello from house dweller 4
+Hello from mover 0
+Hello from mover 1
+Hello from truck driver 1
+Hello from truck driver 0
+House dweller 1 created a box that weighs 27 in 2 units of time
+House dweller 2 created a box that weighs 49 in 3 units of time
+Mover 0 brought down a box that weighs 27 in 1 units of time
+Trucker 1 loaded up a box that weighs 27 to the truck, took 2 units of time, room left: 9
+House dweller 0 created a box that weighs 20 in 4 units of time
+House dweller 3 created a box that weighs 26 in 4 units of time
+House dweller 4 created a box that weighs 48 in 5 units of time
+House dweller 1 created a box that weighs 28 in 3 units of time
+Mover 1 brought down a box that weighs 49 in 2 units of time
+Trucker 0 loaded up a box that weighs 49 to the truck, took 1 units of time, room left: 9
+Mover 0 brought down a box that weighs 20 in 2 units of time
+Trucker 1 loaded up a box that weighs 20 to the truck, took 2 units of time, room left: 8
+House dweller 4 created a box that weighs 31 in 2 units of time
+Mover 1 brought down a box that weighs 26 in 2 units of time
+Trucker 1 loaded up a box that weighs 26 to the truck, took 2 units of time, room left: 7
+House dweller 2 created a box that weighs 14 in 5 units of time
+House dweller 1 created a box that weighs 45 in 3 units of time
+Mover 0 brought down a box that weighs 48 in 2 units of time
+Trucker 0 loaded up a box that weighs 48 to the truck, took 2 units of time, room left: 8
+House dweller 0 created a box that weighs 10 in 5 units of time
+Mover 0 brought down a box that weighs 31 in 1 units of time
+Trucker 1 loaded up a box that weighs 31 to the truck, took 1 units of time, room left: 6
+Mover 1 brought down a box that weighs 28 in 2 units of time
+Trucker 0 loaded up a box that weighs 28 to the truck, took 2 units of time, room left: 7
+House dweller 3 created a box that weighs 45 in 6 units of time
+House dweller 4 created a box that weighs 46 in 3 units of time
+Mover 1 brought down a box that weighs 45 in 1 units of time
+Trucker 1 loaded up a box that weighs 45 to the truck, took 1 units of time, room left: 5
+House dweller 3 created a box that weighs 43 in 1 units of time
+House dweller 4 created a box that weighs 11 in 1 units of time
+Mover 0 brought down a box that weighs 14 in 2 units of time
+Trucker 1 loaded up a box that weighs 14 to the truck, took 1 units of time, room left: 4
+House dweller 1 created a box that weighs 29 in 3 units of time
+Mover 1 brought down a box that weighs 10 in 1 units of time
+Trucker 1 loaded up a box that weighs 10 to the truck, took 1 units of time, room left: 3
+Mover 1 brought down a box that weighs 46 in 1 units of time
+Trucker 0 loaded up a box that weighs 46 to the truck, took 1 units of time, room left: 6
+House dweller 2 created a box that weighs 48 in 5 units of time
+House dweller 0 created a box that weighs 21 in 4 units of time
+House dweller 4 created a box that weighs 8 in 2 units of time
+House dweller 4 is done packing
+Mover 0 brought down a box that weighs 45 in 2 units of time
+Trucker 0 loaded up a box that weighs 45 to the truck, took 2 units of time, room left: 5
+House dweller 1 created a box that weighs 13 in 2 units of time
+House dweller 1 is done packing
+Mover 1 brought down a box that weighs 43 in 1 units of time
+Trucker 0 loaded up a box that weighs 43 to the truck, took 2 units of time, room left: 4
+Mover 0 brought down a box that weighs 11 in 1 units of time
+Trucker 1 loaded up a box that weighs 11 to the truck, took 1 units of time, room left: 2
+Mover 1 brought down a box that weighs 29 in 1 units of time
+Trucker 0 loaded up a box that weighs 29 to the truck, took 1 units of time, room left: 3
+House dweller 0 created a box that weighs 15 in 2 units of time
+House dweller 3 created a box that weighs 32 in 5 units of time
+Mover 0 brought down a box that weighs 48 in 2 units of time
+Trucker 1 loaded up a box that weighs 48 to the truck, took 2 units of time, room left: 1
+Mover 1 brought down a box that weighs 21 in 2 units of time
+Trucker 1 loaded up a box that weighs 21 to the truck, took 2 units of time, room left: 0
+Full truck with load of 253 units of mass departed, round-trip will take 2
+House dweller 2 created a box that weighs 8 in 4 units of time
+House dweller 0 created a box that weighs 43 in 2 units of time
+House dweller 0 is done packing
+Mover 0 brought down a box that weighs 8 in 1 units of time
+Trucker 0 loaded up a box that weighs 8 to the truck, took 2 units of time, room left: 2
+House dweller 3 created a box that weighs 45 in 2 units of time
+House dweller 3 is done packing
+Mover 1 brought down a box that weighs 13 in 2 units of time
+Trucker 0 loaded up a box that weighs 13 to the truck, took 1 units of time, room left: 1
+House dweller 2 created a box that weighs 29 in 2 units of time
+House dweller 2 is done packing
+Mover 0 brought down a box that weighs 15 in 2 units of time
+Trucker 1 loaded up a box that weighs 15 to the truck, took 1 units of time, room left: 9
+Mover 1 brought down a box that weighs 32 in 1 units of time
+Trucker 0 loaded up a box that weighs 32 to the truck, took 2 units of time, room left: 0
+Full truck with load of 341 units of mass departed, round-trip will take 2
+Mover 0 brought down a box that weighs 8 in 1 units of time
+Trucker 1 loaded up a box that weighs 8 to the truck, took 2 units of time, room left: 8
+Mover 0 brought down a box that weighs 45 in 1 units of time
+Trucker 1 loaded up a box that weighs 45 to the truck, took 1 units of time, room left: 7
+Mover 1 brought down a box that weighs 43 in 2 units of time
+Trucker 1 loaded up a box that weighs 43 to the truck, took 1 units of time, room left: 6
+Mover 0 brought down a box that weighs 29 in 1 units of time
+Trucker 1 loaded up a box that weighs 29 to the truck, took 2 units of time, room left: 5
+Not full truck with load of 140 units of mass departed, one way trip will take 8
+Trucker 1 is finished
